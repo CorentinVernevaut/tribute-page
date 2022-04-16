@@ -1,0 +1,44 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main {
+    padding: 0 3em 0 3em;
+    background-color: whitesmoke;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+#image {
+    max-width: 800px;
+    margin-bottom: 1em;
+}
+
+#title {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#tribute-info {
+    border-color: dimgrey;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 1em 3em 1em 3em;
+    margin-bottom: 3em;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: dimgrey;
+}
