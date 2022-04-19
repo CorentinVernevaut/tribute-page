@@ -4,7 +4,8 @@ img {
 }
 
 #main {
-    padding: 0 3em 0 3em;
+    padding: 0 3em 3em 3em;
+    height: auto;
     background-color: whitesmoke;
 }
 
@@ -19,13 +20,20 @@ img {
     margin-bottom: 1em;
 }
 
+#img-caption {
+    text-align: center;
+}
+
 #title {
     margin: 1em 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #tribute-info {
+    background-color: white;
     border-color: dimgrey;
     border-width: 3px;
     border-style: solid;
@@ -34,7 +42,6 @@ img {
     flex-direction: column;
     align-items: center;
     padding: 1em 3em 1em 3em;
-    margin-bottom: 3em;
 }
 
 #tribute-info li {
